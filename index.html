@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    .container{
+      background-color: #f5c076; 
+      width: 640px;
+      height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .tablePrinc{
+      width: 620px;
+      text-align: center;
+    }
+
+    .tableMenu2{
+      display: none;
+    }
+
+    #imgLogo{
+      width: 120px;
+    }
+
+    body{
+      display: flex;
+      justify-content: center;
+    }
+
+    tr{
+      width: 640px;
+    }
+
+    #logoAcc{
+      width: 110px;
+    }
+
+    #tdCentro{
+      width: 330px; 
+      text-align: center;
+    }
+
+    h1{
+      font-size: 20px;
+    }
+
+    @media screen and (max-width: 900px){
+      body{
+      padding: 0px 10%;
+    }
+    .container{
+      height: 100vh;
+      width: 420px;
+    }
+
+    .tablePrinc{
+      width: 320px;
+      text-align: center;
+    }
+
+    .tableMenu2{
+      display: block;
+    }
+
+    #tdCentro{
+      display: none;
+    }
+
+    h1{
+      font-size: 10px;
+    }
+
+    #logoAcc{
+      display: none;
+    }
+
+    .menu{
+      display: none;
+    }
+
+    .espacioInicio{
+      display: none;
+    }
+
+    .inicio{
+      text-align: center;
+    }
+
+    #logoManos{
+      text-align: center;
+      width: 120px;
+    }
+    
+    }
+
+    @media screen and (max-width: 550px) {
+      body{
+      padding: 0;
+    }
+
+    *{
+      text-align: center;
+    }
+
+    .blancoMobile{
+      width: 0px;
+      display: none;
+    }
+
+    .tablePrinc{
+      width: 280px;
+      text-align: center;
+    }
+
+    .tableMenu2{
+      display: block;
+    }
+
+    .container{
+      width: 360px;
+    }
+
+    #imgLogo{
+      width: 90px;
+    }
+    #logoManos{
+      display: none;
+    }
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <table class="tablePrinc">
+      <tr>
+        <td>
+          <img id="imgLogo" src="./imagenes/logo_del_colegio.png" alt="logo del centro" />
+        </td>
+        <td id="tdCentro">
+          <h1>
+            Centro de Educación
+            <br />
+            Maria Montessori de Madrid
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td class="espacioInicio">
+          &nbsp;
+          <br />
+          &nbsp;
+        </td>
+        <td>
+          <table style="width: 100%;">
+            <tr class="inicio">
+              <td>
+                <h3>Inicio</h3>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td class="blancoMobile">&nbsp;</td>
+        <td class="blancoMobile">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="menu">
+          <b> Menu</b>
+          <br />
+          <br />
+          <a href="./index.html">Inicio</a>
+          <br />
+          <br />
+          <a href="./Quienes_Somos/Quienes_Somos_Inicio.html">¿Quienes somos?</a>
+          <br />
+          <br />
+          <a href="./Nuestra_Enseñanza/Nuestra_Enseñanza_Inicio.html">Nuestra Enseñanza</a>
+          <br />
+          <br />
+          <a href="./Matricula/Matricula_inicio.html">Matrícula</a>
+          <br />
+          <br />
+          <a href="./Contacto/Contacto.html">Contacto</a>
+        </td>
+        <td class="bienvenidos">
+          <b>Bienvenidos a la página oficial del
+            <br />
+            Centro educativo María Montessori de Madrid</b>
+          <br />
+          <br />
+          Aquí podéis encontrar todas nuestras actividades, así,
+          <br />
+          como todos los cursos que impartimos en el centro.
+          <br />
+          Somos un centro educativo basado en la enseñanza Montessori,
+          <br />
+          por lo tanto, nuestros cursos desde 0 a 6 años
+          <br />
+          y de 6 a 12 años están orientados a esta pedagogía,
+          <br />
+          pincha en el enlace "¿Quiénes somos?", para saber un poco más
+          <br />
+          de la historia de nuestra pedagogía, también
+          <br />
+          puedes pinchar en el apartado de "Nuestra Pedagogía" para saber
+          <br />
+          un poco más sobre nuestra forma de impartir las clases en el aula.
+          <br />
+          <br />
+          <b>Un cordial Saludo. Director de la fundación.</b>
+        </td>
+        <td class="blancoMobile"></td>
+        <td class="blancoMobile"></td>
+      </tr>
+      <tr>
+        <td id="logoAcc">
+          <img style="width: 80px;" src="./imagenes/logo_accesibilidad.png" alt="Esta página es accesible a todas las personas" />
+        </td>
+        <td style="width: 640px;">
+          <table>
+            <tr>
+              <td>E-MAIL: ies_montessori_madrid@gmail.com</td>
+              <td>TLF: 657734328 / 957463521</td>
+              <td>
+                <img id="logoManos" style="width: 50px;" src="./imagenes/logo2.png" alt="logo pequeño de la escuela" />
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <table class="tableMenu2">
+        <tr>
+          <td>
+            <a href="./index.html">Inicio</a> <a href="./Quienes_Somos/Quienes_Somos_Inicio.html">¿Quienes somos?</a>
+            <a href="./Nuestra_Enseñanza/Nuestra_Enseñanza_Inicio.html">Nuestra Enseñanza</a>
+            <a href="./Matricula/Matricula_inicio.html">Matrícula</a>
+            <a href="./Contacto/Contacto.html">Contacto</a>
+          </td>
+        </tr>
+      </table>
+    </table>
+  </div>
+</body>
+
+</html>
